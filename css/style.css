@@ -17,7 +17,6 @@ main>div{
     display: inline-block;
     margin-left: 2.7%;
     margin-right: 2.7%;
-
 }
 
 .svg1{
@@ -29,10 +28,9 @@ main>div{
     padding: 16px 20px;
     margin: 0 auto;
     padding: 0 auto;
-    
 }
 
-.svg2{
+.svg2, .svg3{
     box-sizing: border-box;
     border-radius: 50%;
     background-color: rgb(18, 117, 185);
@@ -41,19 +39,6 @@ main>div{
     padding: 18px;
     margin: 0 auto;
     padding: 0 auto;
-    
-}
-
-.svg3{
-    box-sizing: border-box;
-    border-radius: 50%;
-    background-color: rgb(18, 117, 185);
-    width: 65px;
-    height: 63px;
-    padding: 18px;
-    margin: 0 auto;
-    padding: 0 auto;
-    
 }
 
 h2{
@@ -61,13 +46,11 @@ h2{
     font-size: 14px;
 }
 
-p{
-    color:#9d9d9d;
+p{  color:#9d9d9d;
     margin-top: 16px;
     font-size: 14px;
     line-height: 20px;
 }
-
 svg{
     fill: white; 
  }
@@ -80,5 +63,4 @@ svg{
 
 .svg1:hover svg, .svg2:hover svg, .svg3:hover svg{
     fill:rgb(18, 117, 185);
-    
 }
