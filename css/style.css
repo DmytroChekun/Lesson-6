@@ -1,0 +1,87 @@
+@font-face {
+    font-family: Proxima Nova Regular;
+    src: url(fonts/pompadur.ttf);
+   }
+*{
+    font-family: Proxima Nova Regular, Helvetica, sans-serif;
+}
+main{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 56px;
+}
+
+main>div{
+    width: 20.83%;
+    display: inline-block;
+    margin-left: 2.7%;
+    margin-right: 2.7%;
+
+}
+
+.svg1{
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: rgb(18, 117, 185);
+    width: 65px;
+    height: 63px;
+    padding: 16px 20px;
+    margin: 0 auto;
+    padding: 0 auto;
+    
+}
+
+.svg2{
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: rgb(18, 117, 185);
+    width: 65px;
+    height: 63px;
+    padding: 18px;
+    margin: 0 auto;
+    padding: 0 auto;
+    
+}
+
+.svg3{
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: rgb(18, 117, 185);
+    width: 65px;
+    height: 63px;
+    padding: 18px;
+    margin: 0 auto;
+    padding: 0 auto;
+    
+}
+svg{
+
+}
+
+h2{
+    margin-top: 16px;
+    font-size: 14px;
+}
+
+p{
+    color:#9d9d9d;
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+svg{
+    fill: white; 
+ }
+
+.svg1:hover, .svg2:hover, .svg3:hover{
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid rgb(18, 117, 185);
+    transition: 0.1s;
+}
+
+.svg1:hover svg, .svg2:hover svg, .svg3:hover svg{
+    fill:rgb(18, 117, 185);
+    
+}
