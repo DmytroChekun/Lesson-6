@@ -6,7 +6,7 @@
     font-family: Proxima Nova Regular, Helvetica, sans-serif;
 }
 main{
-    width: 1200px;
+    width: 80vw;
     margin: 0 auto;
     text-align: center;
     padding-top: 56px;
@@ -15,11 +15,11 @@ main{
 main>div{
     width: 20.83%;
     display: inline-block;
-    margin-left: 2.7%;
-    margin-right: 2.7%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 }
 
-.svg1{
+.svg-container1{
     box-sizing: border-box;
     border-radius: 50%;
     background-color: rgb(18, 117, 185);
@@ -30,7 +30,7 @@ main>div{
     padding: 0 auto;
 }
 
-.svg2, .svg3{
+.svg-container2{
     box-sizing: border-box;
     border-radius: 50%;
     background-color: rgb(18, 117, 185);
@@ -55,12 +55,11 @@ svg{
     fill: white; 
  }
 
-.svg1:hover, .svg2:hover, .svg3:hover{
+.svg-container1:hover, .svg-container2:hover{
     background: rgba(0, 0, 0, 0);
     border: 1px solid rgb(18, 117, 185);
-    transition: 0.1s;
 }
 
-.svg1:hover svg, .svg2:hover svg, .svg3:hover svg{
+.svg-container1:hover svg, .svg-container2:hover svg{
     fill:rgb(18, 117, 185);
 }
